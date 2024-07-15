@@ -1,5 +1,7 @@
 :root {
-    --logo-size: 100px; /* Logo boyutunu burada ayarlayabilirsiniz */
+    --logo-size: 175px; /* Logo boyutunu burada ayarlayabilirsiniz */
+    --shadow-color: purple; /* Gölge rengini burada ayarlayabilirsiniz */
+    --shadow-size: 150px; /* Gölge boyutunu burada ayarlayabilirsiniz */
 }
 
 .logo {
@@ -7,7 +9,7 @@
     position: relative;
     cursor: pointer;
     transition: transform 0.3s;
-    filter: drop-shadow(0 0 150px rgba(127, 3, 252, 180.8)); 
+    filter: drop-shadow(0 0 var(--shadow-size) var(--shadow-color));
     user-select: none;
     width: var(--logo-size);
     height: var(--logo-size);
