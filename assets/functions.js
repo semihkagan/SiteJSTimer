@@ -1,5 +1,5 @@
 // Belirli bir tarih ve saat (yıl, ay-1, gün, saat, dakika, saniye) 
-const targetDate = new Date("2024-07-31T23:59:59");
+const targetDate = new Date("2025-01-01T00:00:00");
 
 // Geri sayımı güncelleyen fonksiyon
 function updateCountdown() {
