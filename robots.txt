@@ -4,4 +4,4 @@ Disallow: /assets/
 Disallow: /assets/imgs/
 Disallow: /src/  
 
-Sitemap: https://example.com/sitemap.xml  
+Sitemap: https://semihkagan.github.io/SiteJSTimer/sitemap.xml  
