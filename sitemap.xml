@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://example.com//</loc>  <!-- Ana sayfa URL'si -->
+        <changefreq>daily</changefreq>  <!-- Güncelleme sıklığı -->
+        <priority>1.0</priority>  <!-- Öncelik (0.0 ile 1.0 arasında) -->
+    </url>
+</urlset>

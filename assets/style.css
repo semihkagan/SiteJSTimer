@@ -1,0 +1,8 @@
+.logo {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+    filter: drop-shadow(0 0 150px rgba(127, 3, 252, 180.8)); 
+    user-select: none;
+}
