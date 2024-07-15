@@ -1,5 +1,5 @@
 :root {
-    --logo-scale: 100%; /* Logo büyüklüğünü yüzde olarak burada ayarlayabilirsiniz */
+    --logo-size: 100px; /* Logo boyutunu burada ayarlayabilirsiniz */
 }
 
 .logo {
@@ -9,5 +9,6 @@
     transition: transform 0.3s;
     filter: drop-shadow(0 0 150px rgba(127, 3, 252, 180.8)); 
     user-select: none;
-    transform: scale(var(--logo-scale) / 100); /* Yüzde değerini scale transformuyla ayarlayın */
+    width: var(--logo-size);
+    height: var(--logo-size);
 }
